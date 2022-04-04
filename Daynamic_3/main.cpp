@@ -1,4 +1,6 @@
-/*This code is taken from the professor Fardad Seneca college OOP244 /NBB /NOTES */
+/*This code is taken from the professor Fardad Seneca college OOP244 /NBB /NOTES
+AND ALL PARTS OF THIS CODE IS MODIFIED BY ME.
+*/
 #include <iostream>
 using namespace std;
 
