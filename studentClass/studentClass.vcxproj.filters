@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="ReadandAdd.cpp">
+    <ClCompile Include="readN.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
