@@ -26,19 +26,14 @@ public: //public access specifier
     void printValue();//we can display the values of the  member attributes using this public member function
    
 };
-
- 
-
-
+//Driver programme 
 int main()
 {
     // object creation
     Student std;
-
     //calling function
     std.set();
     std.printValue();
-
     return 0;
 }
 
