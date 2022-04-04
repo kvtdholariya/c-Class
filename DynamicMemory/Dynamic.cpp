@@ -37,7 +37,7 @@ void Shop::displayPrice(void)
 
 int main() {
 
-	Shop S1;
+	Shop S1; //Shop object has been created
 	S1.intCounter();
 	S1.setPrice();
 	S1.setPrice();
