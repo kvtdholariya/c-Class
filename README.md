@@ -7,3 +7,6 @@ This repo contains all basic progrmas that are written by me
 ->Dynamic initialization of variables 
 
 ClassMethods is a sample code for assigning a values to the private data members without using a constructor.
+
+-->default constructor
+-->Parameterized Constructor program in C++
