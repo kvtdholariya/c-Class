@@ -31,7 +31,7 @@ void student::getStudent() {
     cin >> name;
     cout << "Enter the ID  number: ";
     cin >> rollNo;
-    cout << "Enter total marks outof 100: ";
+    cout << "Enter total marks outof 500: ";
     cin >> total;
 
     perc = float(total) / 500 * 100;
@@ -40,7 +40,7 @@ void student::getStudent() {
 //member function definition, outside of the class
 void student::display() {
     cout << "Student details:\n";
-    cout << "Name: " << name << ", Roll Number: " << rollNo << ", Total: " << total << ", Percentage: " << perc;
+    cout << "Name: " << name << ", Roll Number: " << rollNo << ", Total: " << total << ", Percentage: " << perc << endl;
 }
 
 int main()
