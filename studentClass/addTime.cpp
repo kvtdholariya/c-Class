@@ -11,12 +11,13 @@ private:
     int seconds;
 
 public:
+    //public modifires
     void getTime(void);
     void putTime(void);
     void addTime(Time T1, Time T2);
 };
 
-
+//this getter will get the details of class Time from the user
 void Time::getTime(void)
 {
     cout << "Enter time:" << endl;
@@ -25,7 +26,7 @@ void Time::getTime(void)
     cout << "Seconds? ";  cin >> seconds;
 }
 
-
+//this will display the hours minites and seconds after add.
 void Time::putTime(void)
 {
     cout << endl;
