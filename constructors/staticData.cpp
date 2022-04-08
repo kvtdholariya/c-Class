@@ -1,3 +1,5 @@
+//Kavita Dholariya
+//This code is for static data copy 
 #include <iostream>
 #include <string.h>
 using namespace std;
@@ -5,7 +7,7 @@ using namespace std;
 class Message
 {
 private:
-	char mess[50];
+	char mess[50]; //array of size [50]
 	//static data member to count the objects
 	static int count;
 
@@ -13,25 +15,25 @@ public:
 	//constructor
 	Message()
 	{
-		count++;
+		count++; //increment after each object will created
 	}
 
 	//member function to initialise message
 	void initMessage(char s[])
 	{
-		strcpy(str, s);
+		strcpy(str, s); //copy the string into the str
 	}
 
 	//member function to print message
 	void printMessage(void)
 	{
-		cout << str << endl;
+		cout << str << endl; //prints the string into the display
 	}
 
 	//static member function
 	static int totalObjects(void)
 	{
-		return count;
+		return count; //this will return the total count of ojbects
 	}
 };
 
