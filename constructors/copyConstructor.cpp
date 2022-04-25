@@ -22,7 +22,7 @@ public:
     myClass(int a, int b);
     //Declaration of copy constructor to initialize data members of this 
 
-    /*A copy constructor is a method or member function which initialize an object using another object within the same classî. definition from the google*/
+    /*A copy constructor is a method or member function which initialize an object using another object within the same class‚Äù. definition from the google*/
     myClass(const myClass& d);
     
     void    Display();
@@ -45,7 +45,7 @@ myClass::myClass(const myClass& d)
 }
 
 
-//Definition of Display () member function.
+//Definition of Display () member function. this will simply display the values of the X and Y
 void myClass::Display()
 {
     cout << endl << "X: " << X;
